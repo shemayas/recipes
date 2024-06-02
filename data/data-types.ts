@@ -1,6 +1,6 @@
 interface Recipe {
     title: string;
-    imagePath: string;
+    imagePath?: string;
     text: string;
     categoryIds: string[];
 }

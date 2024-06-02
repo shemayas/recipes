@@ -4,41 +4,41 @@
         "title": "Spaghetti Carbonara",
         "imagePath": "/images/spaghetti-carbonara.jpg",
         "text": "A classic Italian pasta dish made with eggs, cheese, pancetta, and pepper.",
-        "categoryIds": [1, 2]
+        "categoryIds": ["1", "2"]
       },
       {
         "title": "Classic Beef Stew",
         "imagePath": "/images/beef-stew.jpg",
         "text": "Hearty and comforting beef stew with tender chunks of beef, potatoes, and carrots.",
-        "categoryIds": [3, 4]
+        "categoryIds": ["3", "4"]
       },
       {
         "title": "Vegan Tacos",
         "imagePath": "/images/vegan-tacos.jpg",
         "text": "Delicious and healthy vegan tacos filled with seasoned vegetables and avocado.",
-        "categoryIds": [2, 5]
+        "categoryIds": ["2", "5"]
       }
     ],
     "categories": [
       {
         "name": "Italian",
-        "id": 1
+        "id": "1"
       },
       {
         "name": "Pasta",
-        "id": 2
+        "id": "2"
       },
       {
         "name": "American",
-        "id": 3
+        "id": "3"
       },
       {
         "name": "Comfort Food",
-        "id": 4
+        "id": "4"
       },
       {
         "name": "Vegan",
-        "id": 5
+        "id": "5"
       }
     ]
   }
