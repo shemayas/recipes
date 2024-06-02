@@ -1,4 +1,3 @@
-import Image from "next/image";
 import recipesData from "../data/data.json";
 import RecipeItem from "./recipes/RecipeItem";
 const { recipes } = recipesData;
