@@ -1,0 +1,19 @@
+.line-animation {
+  position: relative;
+  display: inline-block;
+}
+
+.line-animation::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background: black;
+  transition: width 0.5s;
+}
+
+.line-animation:hover::after {
+  width: 100%;
+}
