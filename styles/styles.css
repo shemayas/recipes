@@ -1,0 +1,24 @@
+.line-animation {
+  display: block;
+}
+
+.line-animation span {
+  display: inline;
+  position: relative;
+  line-height: 1.4;
+}
+
+.line-animation span::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 2px;
+  width: 0;
+  height: 8px;
+  background: radial-gradient(circle, rgba(119, 141, 253, 0.393) 36%, rgba(255, 255, 255, 0) 100%);
+  transition: width 500ms;
+}
+
+.group:hover .line-animation span::after {
+  width: 100%;
+}
