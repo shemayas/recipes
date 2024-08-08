@@ -3,41 +3,51 @@
       {
         "title": "Spaghetti Carbonara",
         "imagePath": "/images/spaghetti-carbonara.jpg",
+        "excerpt": "A classic Italian pasta dish made with eggs, cheese, pancetta, and pepper.",
         "text": "A classic Italian pasta dish made with eggs, cheese, pancetta, and pepper.",
         "categoryIds": ["1", "2"]
       },
       {
         "title": "Classic Beef Stew",
         "imagePath": "/images/beef-stew.jpg",
+        "excerpt": "Hearty and comforting beef stew with tender chunks of beef, potatoes, and carrots.",
         "text": "Hearty and comforting beef stew with tender chunks of beef, potatoes, and carrots.",
         "categoryIds": ["3", "4"]
       },
       {
         "title": "Vegan Tacos",
         "imagePath": "/images/vegan-tacos.jpg",
+        "excerpt": "Delicious and healthy vegan tacos filled with seasoned vegetables and avocado.",
         "text": "Delicious and healthy vegan tacos filled with seasoned vegetables and avocado.",
         "categoryIds": ["2", "5"]
+      },
+      {
+        "title": "בצק חלות / פיצה",
+        "imagePath": "/images/vegan-tacos.jpg",
+        "excerpt": "בצק מדהים שיכול להוות בסיס טוב ללחם חלות או פיצה",
+        "text": "בצק בסיס שמתאים לחלות או לפיצה.\\n\\nחומרים:\\n\\n - 2 כפות שמרים\\n- כוס מים חמימים\\n- כף סוכר\\n- 2 כוסות מים\\n- כף מלח\\n- 3 כפות סוכר\\n\\nערבבו את השמרים עם כוס המים החמימים, לאחר מכן הוסיפו את כף הסוכר, ערבבו היטב וחכו 5 דק.\\nבקערה אחרת ערבבו את הקמח, שאר הסוכר והמלח.\\n\\nבסוף 5 הדק' של תסיסת השמרים הוסיפו בשלבים את היבשים תוך כדי ערבובלישה\\nהמשיכו ללוש כ10 דק' ואפשרו לבצק לתפוח כחצי שעה.\\n",
+        "categoryIds": ["1"]
       }
     ],
     "categories": [
       {
-        "name": "Italian",
+        "name": "בצקים",
         "id": "1"
       },
       {
-        "name": "Pasta",
+        "name": "פסטה",
         "id": "2"
       },
       {
-        "name": "American",
+        "name": "אמריקאי",
         "id": "3"
       },
       {
-        "name": "Comfort Food",
+        "name": "סוכרים",
         "id": "4"
       },
       {
-        "name": "Vegan",
+        "name": "טבעוני",
         "id": "5"
       }
     ]

@@ -22,14 +22,14 @@ const getCategoryDetails = (categoryIds: string[]) => {
 
 type RecipeProps = {
   categoryIds: string[];
-  text: string;
+  excerpt: string;
   title: string;
   imagePath: string;
 };
 
 const RecipeItem: FC<RecipeProps> = ({
   categoryIds,
-  text,
+  excerpt,
   title,
   imagePath,
 }) => {
@@ -62,7 +62,7 @@ const RecipeItem: FC<RecipeProps> = ({
       </div>
 
       <p className="text-${num} text-center inline bg-gradient-to-r from-green-200 to-green-100 bg-[length:0px_10px] bg-right-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] mb-4">
-        {text}
+        {excerpt}
       </p>
     </div>
   );
