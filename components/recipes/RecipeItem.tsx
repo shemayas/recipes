@@ -20,19 +20,7 @@ const getCategoryDetails = (categoryIds: string[]) => {
   }, []);
 };
 
-type RecipeProps = {
-  categoryIds: string[];
-  excerpt: string;
-  title: string;
-  imagePath: string;
-};
-
-const RecipeItem: FC<RecipeProps> = ({
-  categoryIds,
-  excerpt,
-  title,
-  imagePath,
-}) => {
+const RecipeItem: FC<Recipe> = ({ categoryIds, excerpt, title, imagePath }) => {
   const categoryDetails = getCategoryDetails(categoryIds);
 
   return (
