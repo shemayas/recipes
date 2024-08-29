@@ -1,51 +1,50 @@
 {
-    "recipes": [
-      {
-        "title": "Spaghetti Carbonara",
-        "slug": "Spaghetti-Carbonara",
-        "imagePath": "/images/spaghetti-carbonara.jpg",
-        "excerpt": "A classic Italian pasta dish made with eggs, cheese, pancetta, and pepper.",
-        "text": "A classic Italian pasta dish made with eggs, cheese, pancetta, and pepper.",
-        "categoryIds": ["1", "2"]
-      },
-      {
-        "title": "Classic Beef Stew",
-        "slug": "Classic-Beef-Stew",
-        "imagePath": "/images/beef-stew.jpg",
-        "excerpt": "Hearty and comforting beef stew with tender chunks of beef, potatoes, and carrots.",
-        "text": "Hearty and comforting beef stew with tender chunks of beef, potatoes, and carrots.",
-        "categoryIds": ["3", "4"]
-      },
-      {
-        "title": "בצק חלות / פיצה",
-        "slug": "בצק-חלות-פיצה",
-        "imagePath": "/images/vegan-tacos.jpg",
-        "excerpt": "בצק מדהים שיכול להוות בסיס טוב ללחם חלות או פיצה",
-        "text": "בצק בסיס שמתאים לחלות או לפיצה.\\n\\nחומרים:\\n\\n - 2 כפות שמרים\\n- כוס מים חמימים\\n- כף סוכר\\n- 2 כוסות מים\\n- כף מלח\\n- 3 כפות סוכר\\n\\nערבבו את השמרים עם כוס המים החמימים, לאחר מכן הוסיפו את כף הסוכר, ערבבו היטב וחכו 5 דק.\\nבקערה אחרת ערבבו את הקמח, שאר הסוכר והמלח.\\n\\nבסוף 5 הדק' של תסיסת השמרים הוסיפו בשלבים את היבשים תוך כדי ערבובלישה\\nהמשיכו ללוש כ10 דק' ואפשרו לבצק לתפוח כחצי שעה.\\n",
-        "categoryIds": ["1"]
-      }
-    ],
-    "categories": [
-      {
-        "name": "בצקים",
-        "id": "1"
-      },
-      {
-        "name": "פסטה",
-        "id": "2"
-      },
-      {
-        "name": "אמריקאי",
-        "id": "3"
-      },
-      {
-        "name": "סוכרים",
-        "id": "4"
-      },
-      {
-        "name": "טבעוני",
-        "id": "5"
-      }
-    ]
-  }
-  
+  "recipes": [
+    {
+      "title": "Spaghetti Carbonara",
+      "slug": "Spaghetti-Carbonara",
+      "imagePath": "/images/spaghetti-carbonara.jpg",
+      "excerpt": "A classic Italian pasta dish made with eggs, cheese, pancetta, and pepper.",
+      "text": "A classic Italian pasta dish made with eggs, cheese, pancetta, and pepper.",
+      "categoryIds": ["1", "2"]
+    },
+    {
+      "title": "Classic Beef Stew",
+      "slug": "Classic-Beef-Stew",
+      "imagePath": "/images/beef-stew.jpg",
+      "excerpt": "Hearty and comforting beef stew with tender chunks of beef, potatoes, and carrots.",
+      "text": "Hearty and comforting beef stew with tender chunks of beef, potatoes, and carrots.",
+      "categoryIds": ["3", "4"]
+    },
+    {
+      "title": "בצק חלות / פיצה",
+      "slug": "בצק-חלות-פיצה",
+      "imagePath": "/images/vegan-tacos.jpg",
+      "excerpt": "בצק מדהים שיכול להוות בסיס טוב ללחם חלות או פיצה",
+      "text": "%D7%91%D7%A6%D7%A7%20%D7%91%D7%A1%D7%99%D7%A1%20%D7%A9%D7%9E%D7%AA%D7%90%D7%99%D7%9D%20%D7%9C%D7%97%D7%9C%D7%95%D7%AA%20%D7%90%D7%95%20%D7%9C%D7%A4%D7%99%D7%A6%D7%94.%0A%0A%D7%97%D7%95%D7%9E%D7%A8%D7%99%D7%9D:%0A%0A%20-%202%20%D7%9B%D7%A4%D7%95%D7%AA%20%D7%A9%D7%9E%D7%A8%D7%99%D7%9D%0A-%20%D7%9B%D7%95%D7%A1%20%D7%9E%D7%99%D7%9D%20%D7%97%D7%9E%D7%99%D7%9E%D7%99%D7%9D%0A-%20%D7%9B%D7%A3%20%D7%A1%D7%95%D7%9B%D7%A8%0A-%202%20%D7%9B%D7%95%D7%A1%D7%95%D7%AA%20%D7%9E%D7%99%D7%9D%0A-%20%D7%9B%D7%A3%20%D7%9E%D7%9C%D7%97%0A-%203%20%D7%9B%D7%A4%D7%95%D7%AA%20%D7%A1%D7%95%D7%9B%D7%A8%0A%0A%D7%A2%D7%A8%D7%91%D7%91%D7%95%20%D7%90%D7%AA%20%D7%94%D7%A9%D7%9E%D7%A8%D7%99%D7%9D%20%D7%A2%D7%9D%20%D7%9B%D7%95%D7%A1%20%D7%94%D7%9E%D7%99%D7%9D%20%D7%94%D7%97%D7%9E%D7%99%D7%9E%D7%99%D7%9D,%20%D7%9C%D7%90%D7%97%D7%A8%20%D7%9E%D7%9B%D7%9F%20%D7%94%D7%95%D7%A1%D7%99%D7%A4%D7%95%20%D7%90%D7%AA%20%D7%9B%D7%A3%20%D7%94%D7%A1%D7%95%D7%9B%D7%A8,%20%D7%A2%D7%A8%D7%91%D7%91%D7%95%20%D7%94%D7%99%D7%98%D7%91%20%D7%95%D7%97%D7%9B%D7%95%205%20%D7%93%D7%A7.%0A%0A%D7%91%D7%A7%D7%A2%D7%A8%D7%94%20%D7%90%D7%97%D7%A8%D7%AA%20%D7%A2%D7%A8%D7%91%D7%91%D7%95%20%D7%90%D7%AA%20%D7%94%D7%A7%D7%9E%D7%97,%20%D7%A9%D7%90%D7%A8%20%D7%94%D7%A1%D7%95%D7%9B%D7%A8%20%D7%95%D7%94%D7%9E%D7%9C%D7%97.%0A%0A%D7%91%D7%A1%D7%95%D7%A3%205%20%D7%94%D7%93%D7%A7'%20%D7%A9%D7%9C%20%D7%AA%D7%A1%D7%99%D7%A1%D7%AA%20%D7%94%D7%A9%D7%9E%D7%A8%D7%99%D7%9D%20%D7%94%D7%95%D7%A1%D7%99%D7%A4%D7%95%20%D7%91%D7%A9%D7%9C%D7%91%D7%99%D7%9D%20%D7%90%D7%AA%20%D7%94%D7%99%D7%91%D7%A9%D7%99%D7%9D%20%D7%AA%D7%95%D7%9A%20%D7%9B%D7%93%D7%99%20%D7%A2%D7%A8%D7%91%D7%95%D7%91%D7%9C%D7%99%D7%A9%D7%94%0A%D7%94%D7%9E%D7%A9%D7%99%D7%9B%D7%95%20%D7%9C%D7%9C%D7%95%D7%A9%20%D7%9B10%20%D7%93%D7%A7'%20%D7%95%D7%90%D7%A4%D7%A9%D7%A8%D7%95%20%D7%9C%D7%91%D7%A6%D7%A7%20%D7%9C%D7%AA%D7%A4%D7%95%D7%97%20%D7%9B%D7%97%D7%A6%D7%99%20%D7%A9%D7%A2%D7%94.",
+      "categoryIds": ["1"]
+    }
+  ],
+  "categories": [
+    {
+      "name": "בצקים",
+      "id": "1"
+    },
+    {
+      "name": "פסטה",
+      "id": "2"
+    },
+    {
+      "name": "אמריקאי",
+      "id": "3"
+    },
+    {
+      "name": "סוכרים",
+      "id": "4"
+    },
+    {
+      "name": "טבעוני",
+      "id": "5"
+    }
+  ]
+}
