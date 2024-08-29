@@ -1,4 +1,6 @@
 import type { Config } from "tailwindcss";
+// import aspe'@tailwindcss/aspect-ratio'
+import ratio from "@tailwindcss/aspect-ratio";
 
 const config: Config = {
   content: [
@@ -15,6 +17,6 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [ratio],
 };
 export default config;
