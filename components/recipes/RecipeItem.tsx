@@ -25,7 +25,7 @@ const RecipeItem: FC<Recipe> = ({ categoryIds, excerpt, title, imagePath, slug }
   const categoryDetails = getCategoryDetails(categoryIds);
 
   return (
-    <div className="group my-4 group relative">
+    <div className="group my-4 group relative container">
       <h2 className="text-xl font-bold mb-2 relative">{title}</h2>
       {imagePath && (
         <Link href={`/recipe/${slug}`}>

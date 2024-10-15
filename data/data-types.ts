@@ -3,7 +3,6 @@ interface Recipe {
     slug: string;
     excerpt: string;
     imagePath?: string;
-    text: string;
     categoryIds: string[];
 }
 
