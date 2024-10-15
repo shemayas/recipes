@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Open_Sans } from "next/font/google";
 import "./globals.css";
+import Header from "@/components/Header";
 
 const openSans = Open_Sans({ subsets: ["hebrew", "latin"] });
 
@@ -16,7 +17,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="he" dir="rtl">
-      <body className={openSans.className}>{children}</body>
+      <body className={openSans.className}>
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }
