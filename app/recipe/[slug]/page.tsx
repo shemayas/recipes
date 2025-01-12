@@ -1,10 +1,11 @@
 import { FC } from "react";
 import data from "@/data/data.json";
-import { MDXRemote, MDXRemoteProps } from "next-mdx-remote/rsc";
-import fs, { readFileSync } from "node:fs";
-import { serialize } from "next-mdx-remote/serialize";
+import { MDXRemote } from "next-mdx-remote/rsc";
+import { readFileSync } from "node:fs";
 import path from "node:path";
 import { notFound } from "next/navigation";
+import Image from "next/image";
+import Lines from "./Lines";
 
 const { recipes } = data;
 interface RecipeSlugProps {
@@ -26,7 +27,7 @@ const RecipeSlug: FC<RecipeSlugProps> = ({ params: { slug } }) => {
 
   const dirPath = path.join(process.cwd(), "/recipes-md");
   const filePath = `${dirPath}/${recipe.en_slug}.mdx`;
-  
+
   let mdxSource: string | undefined;
   try {
     mdxSource = readFileSync(filePath, "utf8");
@@ -37,7 +38,17 @@ const RecipeSlug: FC<RecipeSlugProps> = ({ params: { slug } }) => {
     notFound();
   }
 
-  return <MDXRemote source={mdxSource} />;
+  return (
+    <section className="container">
+      <h1>{recipe.title}</h1>
+      {recipe.imagePath && (
+        <div className="flex justify-center">
+          <Image src={recipe.imagePath} alt={recipe.title} width={600} height={400} />
+        </div>
+      )}
+      <MDXRemote source={mdxSource} components={{ Lines }} />
+    </section>
+  );
 };
 
 export default RecipeSlug;
