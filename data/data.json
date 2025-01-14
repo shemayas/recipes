@@ -10,9 +10,10 @@
     },
     {
       "title": "נוגט צרפתי",
-      "slug": "french-nougat",
+      "slug": "נוגט-צרפתי",
       "en_slug": "french-nougat",
       "imagePath": "/images/french-nugat.jpg",
+      "excerpt": "ממתק עשיר ומפנק שמוסיף טעם ומרקם ייחודיים לקינוחים ולמאפים",
       "categoryIds": ["3", "4"]
     },
     {
