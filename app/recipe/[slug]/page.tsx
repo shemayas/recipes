@@ -39,11 +39,17 @@ const RecipeSlug: FC<RecipeSlugProps> = ({ params: { slug } }) => {
   }
 
   return (
-    <section className="container">
-      <h1>{recipe.title}</h1>
+    <section className="container [&_.excerpt]:my-4">
+      <h1 className="text-3xl font-bold my-4">{recipe.title}</h1>
       {recipe.imagePath && (
         <div className="flex justify-center">
-          <Image src={recipe.imagePath} alt={recipe.title} width={600} height={400} />
+          <Image
+            src={recipe.imagePath}
+            alt={recipe.title}
+            width={600}
+            height={400}
+            className="rounded-lg"
+          />
         </div>
       )}
       <MDXRemote source={mdxSource} components={{ Lines }} />

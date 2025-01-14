@@ -9,11 +9,10 @@
       "categoryIds": ["1", "2"]
     },
     {
-      "title": "Classic Beef Stew",
-      "slug": "Classic-Beef-Stew",
-      "en_slug": "Classic-Beef-Stew",
-      "imagePath": "/images/beef-stew.jpg",
-      "excerpt": "Hearty and comforting beef stew with tender chunks of beef, potatoes, and carrots.",
+      "title": "נוגט צרפתי",
+      "slug": "french-nougat",
+      "en_slug": "french-nougat",
+      "imagePath": "/images/french-nugat.jpg",
       "categoryIds": ["3", "4"]
     },
     {
@@ -35,7 +34,7 @@
       "id": "2"
     },
     {
-      "name": "אמריקאי",
+      "name": "מנות אחרונות",
       "id": "3"
     },
     {
